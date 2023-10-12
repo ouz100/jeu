@@ -1,0 +1,207 @@
+/* Utilities */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* background & colored buttons */
+.bg-primary,  
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.bt-secondary,
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.bg-light,
+.btn-light {
+    background-color: var(--light-color);
+    color: #fff;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items:center;
+    height: 100%;
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Showcase-form input:focus {
+    outline: none;
+}
+
+/* margin */
+.my-1 {
+    margin: 1rem 0;
+
+.my-2 {
+    margin: 1,5rem 0;
+} 
+
+.my-3 {
+    margin: 2rem 0;
+}
+}
+
+.Showcase::before,
+.Showcase::after {
+    content: '';
+    position: absolute;
+    height: 100px;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    background: #fff;
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-3deg);
+    -ms-transform: skewY(-3deg);
+}
+
+
+
+/* Stats */
+.stats {
+    padding-top: 100px;
+}
+
+.stats-heading {
+    max-width: 500px;
+    margin: auto;
+}
+
+.stats .grid p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.stats .grid h3 {
+    font-size: 35px;
+}
+
+.cli .grid p {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+/* cli */
+.cli .grid >*:first-child {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+/* margin */
+.my-1 {
+    margin: 1rem 0;
+}
+
+.my-2 {
+    margin: 1.5rem 0;
+}
+
+.my-3 {
+    margin: 2rem 0;
+}
+
+.my-4 {
+    margin: 3rem 0;
+}
+
+.my-5 {
+    margin: 4rem;
+}
+
+/* padding */
+.my-1 {
+    margin: 4rem 0;
+}
+
+.my-2 {
+    margin: 1rem 0;
+}
+
+.my-2 {
+    margin: 2rem 0;
+}
+
+/* Cloud */
+.cloud .grid {
+    grid-template-columns: 4fr 3fr;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.grid {
+    display: flex;
+    grid-template-columns: repeat(2.1fr);
+}
+
+/* Text sizes */
+
+.lead {
+    font-size: 20px;
+}
+
+.sm {
+    font-size: 1rem;
+}
+
+.md {
+    font-size: 2rem;
+}
+
+.lg {
+    font-size: 3rem;
+}
+
+.xl {
+    font-size:4rem;
+}
+
+.flex {
+    font-display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+
+
+
